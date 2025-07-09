@@ -3,82 +3,210 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VSG Satka Matka King</title>
-  <meta name="description" content="Join VSG Satka Matka King for daily free Kalyan Matka game charts, VIP tips, and guaranteed loss coverage.">
-  <meta name="keywords" content="Kalyan Matka, Satta Matka, Free Game Chart, VIP Matka, Matka King, Telegram Satta">
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="VSG Satka Matka King">
-  <meta property="og:title" content="VSG Satka Matka King – Free Daily Charts">
-  <meta property="og:description" content="Join our VIP Telegram for daily Matka charts, results & loss cover guarantee.">
-  <meta property="og:image" content="https://yourdomain.com/dpm.jpg">
-  <meta property="og:url" content="https://yourdomain.com">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://yourdomain.com/">
+  <title>VSG King</title>
+
+  <!-- Preload LCP Image -->
+  <link rel="preload" as="image" href="bbb.webp" type="image/webp" />
+  
   <style>
-    body{margin:0;padding:0;font-family:Arial,sans-serif;background:linear-gradient(to bottom right,#fff,#cdf2ff);color:#222;text-align:center}
-    .container{padding:20px;max-width:500px;margin:auto}
-    img.dp{width:100px;height:100px;border-radius:50%;object-fit:cover;margin-bottom:15px}
-    h1{font-size:26px;margin:10px 0}
-    p.description{font-size:16px;margin:15px 0}
-    small{font-size:12px;display:block;margin:10px 0}
-    .info{font-size:16px;margin:10px 0}
-    .telegram-btn{display:inline-block;padding:12px 25px;background-color:#24a5f3;color:#fff;text-decoration:none;border-radius:5px;margin:10px 0;font-size:16px;animation:pulse 1s infinite}
-    @keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.05)}100%{transform:scale(1)}}
-    .countdown-btn{display:inline-block;padding:12px 25px;background-color:#4CAF50;color:#fff;border-radius:5px;font-size:16px;margin:15px 0;text-decoration:none}
-    .note{font-size:14px;margin-top:25px;padding:0 10px}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      font-family: system-ui, sans-serif;
+      font-display: swap;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box-container {
+      position: relative;
+      width: 92%;
+      max-width: 420px;
+      padding: 3px;
+      border-radius: 12px;
+    }
+
+    .box-container::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      border-radius: 12px;
+      padding: 3px;
+      background: linear-gradient(90deg, #000, gold, #000);
+      background-size: 600% 600%;
+      animation: borderMove 3s linear infinite;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    @keyframes borderMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .box {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(6px);
+      border-radius: 10px;
+      padding: 20px;
+      position: relative;
+      z-index: 2;
+      text-align: center;
+    }
+
+    img.dp {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      color: #002060;
+      font-size: 26px;
+      margin-bottom: 16px;
+    }
+
+    .subscribers {
+      font-size: 15px;
+      color: #000;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      color: #002060;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .countdown {
+      background: #ff0055;
+      color: #fff;
+      font-size: 14px;
+      padding: 12px;
+      border-radius: 5px;
+      margin-bottom: 22px;
+    }
+
+    .telegram-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      background: #229ED9;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 12px 0;
+      border-radius: 40px;
+      text-decoration: none;
+      margin-bottom: 16px;
+      animation: pulse 1.4s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.95; }
+    }
+
+    .telegram-btn svg {
+      width: 18px;
+      height: 18px;
+      fill: white;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #111;
+      font-weight: bold;
+    }
   </style>
-  <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1449026276364838');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1449026276364838&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
 </head>
 <body>
-  <div class="container">
-    <img class="dp" src="vsg2.jpg" alt="VSG Satka Matka King Profile Picture" loading="lazy">
-    <h1>VSG Satka Matka King</h1>
-    <small>34295 Subscribers</small>
-    <div class="info">All Games VIP Chart Available</div>
-    <a class="telegram-btn" href="https://telegram.me/+zEptw5YZbmswZmRl" >Join Kalyan Matka VIP Telegram Channel</a>
-    <p class="description">Daily Free Game Chart<br>Kalyan Matka ke Sare Chart Free Lifetime</p>
-    <ul style="text-align:left;display:inline-block;font-size:16px;padding-left:20px">
-      <li>✅ 100% Loss Cover Ki Zimmedari</li>
-      <li>✅ Time to Time Chart Milenge Aap Ko</li>
-      <li>✅ Channel Join Karo, Results Dekho</li>
-      <li>✅ Paisa Kamwane ka Vada Hain</li>
-    </ul>
-    <div>
-      <a href="#" class="countdown-btn" id="countdownBtn">Free Joining Ends In <span id="timer">25</span> seconds</a>
+  <div class="box-container">
+    <div class="box">
+      <!-- LCP image: optimized -->
+      <img 
+        src="bbb.webp" 
+        alt="Kalyan King Logo" 
+        class="dp"
+        width="80"
+        height="80"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
+      />
+      <h1>KALYAN KING</h1>
+      <div class="subscribers"><span id="subscriberCount">26,295</span> Subscribers</div>
+      <h2>All Game VIP Charts Available Here</h2>
+      <div class="countdown">Free Joining Ends In <span id="timer">20</span> Seconds</div>
+      <a href="https://telegram.me/+zEptw5YZbmswZmRl" class="telegram-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+          <path d="M120,0C53.7,0,0,53.7,0,120s53.7,120,120,120s120-53.7,120-120S186.3,0,120,0z M177.3,78.2l-21.2,99.6 
+            c-1.6,7.1-5.8,8.8-11.7,5.5l-32.4-23.9l-15.6,15.1c-1.7,1.7-3.2,3.2-6.5,3.2l2.3-32.9l59.9-54.1c2.6-2.3-0.6-3.7-4-1.4L83.3,134.1 
+            l-31.7-9.9c-6.9-2.2-7.1-6.9,1.5-10.2l123.2-47.6C180.1,64.2,182.2,66.3,177.3,78.2z"/>
+        </svg>
+        JOIN FREE TELEGRAM
+      </a>
+      <div class="note">SIRF 3 DIN HAMARE SATH KAAM KARKE DEKHO</div>
     </div>
-    <a class="telegram-btn" href="https://telegram.me/+zEptw5YZbmswZmRl" target="_blank" rel="noopener noreferrer">Join Kalyan Matka VIP Telegram Channel</a>
-    <p class="note">NOTE: Hamara Kalyan VIP Channel Join Karne Par Aapko Sare VIP Chart Daily Time par free mein Milenge. Sirf 3 Din Tak Hamari Reports Par Kaam Karo, Results Apne Aap Dikh Jayega.</p>
   </div>
+
+  <!-- Countdown & Subscriber Count -->
   <script defer>
-    let timeLeft = 25;
-    const timerEl = document.getElementById("timer");
+    let timeLeft = 20;
+    const timer = document.getElementById("timer");
     const countdown = setInterval(() => {
       timeLeft--;
-      timerEl.textContent = timeLeft;
+      timer.textContent = timeLeft;
       if (timeLeft <= 0) {
         clearInterval(countdown);
         window.location.href = "https://telegram.me/+zEptw5YZbmswZmRl";
       }
     }, 1000);
+
+    const start = 26295, end = 26350, duration = 4000;
+    const interval = duration / (end - start);
+    let count = start;
+    const counter = document.getElementById("subscriberCount");
+
+    const counterInterval = setInterval(() => {
+      count++;
+      counter.textContent = count.toLocaleString("en-IN");
+      if (count >= end) clearInterval(counterInterval);
+    }, interval);
   </script>
-  <footer>
-    <p>© 2025 Kalyan Satka Matka • All Rights Reserved</p>
-  </footer>
+
+  <!-- Meta Pixel Code: Loaded after page load to avoid render blocking -->
+  <script>
+    window.addEventListener('load', function () {
+      !function(f,b,e,v,n,t,s){
+        if(f.fbq)return;n=f.fbq=function(){
+          n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments)
+        };
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1897590107478926');
+      fbq('track', 'PageView');
+    });
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1897590107478926&ev=PageView&noscript=1" />
+  </noscript>
 </body>
 </html>
